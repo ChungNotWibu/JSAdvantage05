@@ -18,11 +18,32 @@
 // js là 1 ngôn ngữ bất đồng bộ
 // jsb chx làm việc với promise : js chạy từ trên xuống dưới, từ trái qua phải
 
+setTimeout(() => {
+    
+    console.log("dòng 1")}, 3000); 
 
-console.log("dòng 1")
-console.log("dòng 2")
+setTimeout(() => {
+    
+    console.log("dòng 2")}, 5000); 
+
+    console.log("dòng 3")
+
+
 
 // thường dòng 1 hiện trc
 // còn trường hợp hiện dòng 2 trước dòng 1:
 // -> xử lí bất đồng bộ của js được áp dụng ,
 
+
+
+// setTimeout() : là bất đồng bộ của js có nhiệm vụ thực thi  1 logic sau 1 khoảng thời gian xử dụng 
+// setInterval() : là thực thi logic sau 1 khoảng thời gian nhưng hàm này có tính chất loop
+
+//  arrow Function () - {}
+//  cú pháp 2 hàm set trên giống như hàm map : là 1 hàm call back
+
+// const numberArr = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+
+
+// bài toán thực tế:(Buổi 9): net-working : thay vì hard-code data -> lấy data back-end trả về và render ra màn hình
+// trường hợp 1: internet với tốc độ nhanh -> độ trễ thấp 
