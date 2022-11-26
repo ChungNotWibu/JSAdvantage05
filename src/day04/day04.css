@@ -1,0 +1,20 @@
+.div-test{
+    font-size: 50px;
+    color: red;
+}
+
+.blue-test{
+    color: blue;
+    font-size: 50px;
+}
+
+.green-test{
+    color: green;
+    font-size: 50px;
+}
+
+body{
+    text-align: center;
+    color: white;
+    background-color:   rgb(44, 44, 44);
+}
